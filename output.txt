@@ -1,0 +1,940 @@
+Num of Processes: 5
+Running Priority Scheduling:
+Executing the task P5 with priority 1 for 9 seconds
+Task with priority 1 completed.
+Executing the task P1 with priority 3 for 4 seconds
+Task with priority 3 completed.
+Executing the task P4 with priority 8 for 12 seconds
+Task with priority 8 completed.
+Executing the task P2 with priority 9 for 15 seconds
+Task with priority 9 completed.
+Executing the task P3 with priority 9 for 9 seconds
+Task with priority 9 completed.
+
+Results for Priority Scheduling:
+Process P5:
+  Turnaround Time: 9 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P1:
+  Turnaround Time: 13 ms
+  Waiting Time: 9 ms
+  Response Time: 0 ms
+Process P4:
+  Turnaround Time: 25 ms
+  Waiting Time: 13 ms
+  Response Time: 0 ms
+Process P2:
+  Turnaround Time: 40 ms
+  Waiting Time: 25 ms
+  Response Time: 0 ms
+Process P3:
+  Turnaround Time: 49 ms
+  Waiting Time: 40 ms
+  Response Time: 0 ms
+
+Running Earliest Deadline First Scheduling:
+Executing the task P1 with deadline 3 for 4 seconds
+Task with deadline 3 completed.
+Executing the task P3 with deadline 7 for 9 seconds
+Task with deadline 7 completed.
+Executing the task P4 with deadline 14 for 12 seconds
+Task with deadline 14 completed.
+Executing the task P5 with deadline 17 for 9 seconds
+Task with deadline 17 completed.
+Executing the task P2 with deadline 19 for 15 seconds
+Task with deadline 19 completed.
+
+Results for Earliest Deadline First Scheduling:
+Process P1:
+  Turnaround Time: 4 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P3:
+  Turnaround Time: 13 ms
+  Waiting Time: 4 ms
+  Response Time: 4 ms
+Process P4:
+  Turnaround Time: 25 ms
+  Waiting Time: 13 ms
+  Response Time: 13 ms
+Process P5:
+  Turnaround Time: 34 ms
+  Waiting Time: 25 ms
+  Response Time: 25 ms
+Process P2:
+  Turnaround Time: 49 ms
+  Waiting Time: 34 ms
+  Response Time: 34 ms
+
+Running Rate Monotonic Scheduling:
+Executing the task P3 with period 2 for 9 seconds
+Task with period 2 completed.
+Executing the task P2 with period 3 for 15 seconds
+Task with period 3 completed.
+Executing the task P5 with period 4 for 9 seconds
+Task with period 4 completed.
+Executing the task P1 with period 6 for 4 seconds
+Task with period 6 completed.
+Executing the task P4 with period 10 for 12 seconds
+Task with period 10 completed.
+
+Results for Rate Monotonic Scheduling:
+Process P3:
+  Turnaround Time: 9 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P2:
+  Turnaround Time: 24 ms
+  Waiting Time: 9 ms
+  Response Time: 9 ms
+Process P5:
+  Turnaround Time: 33 ms
+  Waiting Time: 24 ms
+  Response Time: 24 ms
+Process P1:
+  Turnaround Time: 37 ms
+  Waiting Time: 33 ms
+  Response Time: 33 ms
+Process P4:
+  Turnaround Time: 49 ms
+  Waiting Time: 37 ms
+  Response Time: 37 ms
+
+Running Proportional Share Scheduling:
+Executing the task P1 with 322 shares for 4 seconds
+Executing the task P2 with 176 shares for 15 seconds
+Executing the task P3 with 220 shares for 9 seconds
+Executing the task P4 with 149 shares for 12 seconds
+Executing the task P5 with 131 shares for 9 seconds
+
+Results for Proportional Share Scheduling:
+Process P1:
+  Turnaround Time: 4 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P2:
+  Turnaround Time: 16 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P3:
+  Turnaround Time: 12 ms
+  Waiting Time: 3 ms
+  Response Time: 0 ms
+Process P4:
+  Turnaround Time: 16 ms
+  Waiting Time: 4 ms
+  Response Time: 0 ms
+Process P5:
+  Turnaround Time: 14 ms
+  Waiting Time: 5 ms
+  Response Time: 0 ms
+
+Metrics Comparison:
+Priority Scheduling:
+  Average Turnaround Time: 27.20 ms
+  Average Waiting Time: 17.40 ms
+  Average Response Time: 0.00 ms
+
+Earliest Deadline First Scheduling:
+  Average Turnaround Time: 25.00 ms
+  Average Waiting Time: 15.20 ms
+  Average Response Time: 15.20 ms
+
+Rate Monotonic Scheduling:
+  Average Turnaround Time: 30.40 ms
+  Average Waiting Time: 20.60 ms
+  Average Response Time: 20.60 ms
+
+Proportional Share Scheduling:
+  Average Turnaround Time: 12.40 ms
+  Average Waiting Time: 2.60 ms
+  Average Response Time: 0.00 ms
+
+Conclusion : With Number of Process = 5
+
+By comparing the Average TurnAround Time
+Proportional Share Scheduling is the best.
+
+By comparing the Average Waiting Time
+Proportional Share Scheduling is the best.
+Num of Processes: 10
+Running Priority Scheduling:
+Executing the task P4 with priority 1 for 14 seconds
+Task with priority 1 completed.
+Executing the task P5 with priority 1 for 16 seconds
+Task with priority 1 completed.
+Executing the task P2 with priority 3 for 9 seconds
+Task with priority 3 completed.
+Executing the task P1 with priority 6 for 16 seconds
+Task with priority 6 completed.
+Executing the task P7 with priority 6 for 14 seconds
+Task with priority 6 completed.
+Executing the task P9 with priority 6 for 11 seconds
+Task with priority 6 completed.
+Executing the task P6 with priority 7 for 6 seconds
+Task with priority 7 completed.
+Executing the task P10 with priority 7 for 13 seconds
+Task with priority 7 completed.
+Executing the task P3 with priority 8 for 1 seconds
+Task with priority 8 completed.
+Executing the task P8 with priority 8 for 8 seconds
+Task with priority 8 completed.
+
+Results for Priority Scheduling:
+Process P4:
+  Turnaround Time: 14 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P5:
+  Turnaround Time: 30 ms
+  Waiting Time: 14 ms
+  Response Time: 0 ms
+Process P2:
+  Turnaround Time: 39 ms
+  Waiting Time: 30 ms
+  Response Time: 0 ms
+Process P1:
+  Turnaround Time: 55 ms
+  Waiting Time: 39 ms
+  Response Time: 0 ms
+Process P7:
+  Turnaround Time: 69 ms
+  Waiting Time: 55 ms
+  Response Time: 0 ms
+Process P9:
+  Turnaround Time: 80 ms
+  Waiting Time: 69 ms
+  Response Time: 0 ms
+Process P6:
+  Turnaround Time: 86 ms
+  Waiting Time: 80 ms
+  Response Time: 0 ms
+Process P10:
+  Turnaround Time: 99 ms
+  Waiting Time: 86 ms
+  Response Time: 0 ms
+Process P3:
+  Turnaround Time: 100 ms
+  Waiting Time: 99 ms
+  Response Time: 0 ms
+Process P8:
+  Turnaround Time: 108 ms
+  Waiting Time: 100 ms
+  Response Time: 0 ms
+
+Running Earliest Deadline First Scheduling:
+Executing the task P4 with deadline 1 for 14 seconds
+Task with deadline 1 completed.
+Executing the task P2 with deadline 5 for 9 seconds
+Task with deadline 5 completed.
+Executing the task P9 with deadline 5 for 11 seconds
+Task with deadline 5 completed.
+Executing the task P7 with deadline 8 for 14 seconds
+Task with deadline 8 completed.
+Executing the task P3 with deadline 10 for 1 seconds
+Task with deadline 10 completed.
+Executing the task P5 with deadline 15 for 16 seconds
+Task with deadline 15 completed.
+Executing the task P1 with deadline 16 for 16 seconds
+Task with deadline 16 completed.
+Executing the task P6 with deadline 24 for 6 seconds
+Task with deadline 24 completed.
+Executing the task P10 with deadline 27 for 13 seconds
+Task with deadline 27 completed.
+Executing the task P8 with deadline 27 for 8 seconds
+Task with deadline 27 completed.
+
+Results for Earliest Deadline First Scheduling:
+Process P4:
+  Turnaround Time: 14 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P2:
+  Turnaround Time: 23 ms
+  Waiting Time: 14 ms
+  Response Time: 14 ms
+Process P9:
+  Turnaround Time: 34 ms
+  Waiting Time: 23 ms
+  Response Time: 23 ms
+Process P7:
+  Turnaround Time: 48 ms
+  Waiting Time: 34 ms
+  Response Time: 34 ms
+Process P3:
+  Turnaround Time: 49 ms
+  Waiting Time: 48 ms
+  Response Time: 48 ms
+Process P5:
+  Turnaround Time: 65 ms
+  Waiting Time: 49 ms
+  Response Time: 49 ms
+Process P1:
+  Turnaround Time: 81 ms
+  Waiting Time: 65 ms
+  Response Time: 65 ms
+Process P6:
+  Turnaround Time: 87 ms
+  Waiting Time: 81 ms
+  Response Time: 81 ms
+Process P10:
+  Turnaround Time: 100 ms
+  Waiting Time: 87 ms
+  Response Time: 87 ms
+Process P8:
+  Turnaround Time: 108 ms
+  Waiting Time: 100 ms
+  Response Time: 100 ms
+
+Running Rate Monotonic Scheduling:
+Executing the task P5 with period 2 for 16 seconds
+Task with period 2 completed.
+Executing the task P10 with period 2 for 13 seconds
+Task with period 2 completed.
+Executing the task P1 with period 3 for 16 seconds
+Task with period 3 completed.
+Executing the task P2 with period 3 for 9 seconds
+Task with period 3 completed.
+Executing the task P8 with period 5 for 8 seconds
+Task with period 5 completed.
+Executing the task P3 with period 6 for 1 seconds
+Task with period 6 completed.
+Executing the task P7 with period 6 for 14 seconds
+Task with period 6 completed.
+Executing the task P4 with period 7 for 14 seconds
+Task with period 7 completed.
+Executing the task P6 with period 10 for 6 seconds
+Task with period 10 completed.
+Executing the task P9 with period 10 for 11 seconds
+Task with period 10 completed.
+
+Results for Rate Monotonic Scheduling:
+Process P5:
+  Turnaround Time: 16 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P10:
+  Turnaround Time: 29 ms
+  Waiting Time: 16 ms
+  Response Time: 16 ms
+Process P1:
+  Turnaround Time: 45 ms
+  Waiting Time: 29 ms
+  Response Time: 29 ms
+Process P2:
+  Turnaround Time: 54 ms
+  Waiting Time: 45 ms
+  Response Time: 45 ms
+Process P8:
+  Turnaround Time: 62 ms
+  Waiting Time: 54 ms
+  Response Time: 54 ms
+Process P3:
+  Turnaround Time: 63 ms
+  Waiting Time: 62 ms
+  Response Time: 62 ms
+Process P7:
+  Turnaround Time: 77 ms
+  Waiting Time: 63 ms
+  Response Time: 63 ms
+Process P4:
+  Turnaround Time: 91 ms
+  Waiting Time: 77 ms
+  Response Time: 77 ms
+Process P6:
+  Turnaround Time: 97 ms
+  Waiting Time: 91 ms
+  Response Time: 91 ms
+Process P9:
+  Turnaround Time: 108 ms
+  Waiting Time: 97 ms
+  Response Time: 97 ms
+
+Running Proportional Share Scheduling:
+Executing the task P1 with 113 shares for 16 seconds
+Executing the task P2 with 163 shares for 9 seconds
+Executing the task P3 with 52 shares for 1 seconds
+Executing the task P4 with 89 shares for 14 seconds
+Executing the task P5 with 97 shares for 16 seconds
+Executing the task P6 with 128 shares for 6 seconds
+Executing the task P7 with 99 shares for 14 seconds
+Executing the task P8 with 107 shares for 8 seconds
+Executing the task P9 with 123 shares for 11 seconds
+Executing the task P10 with 24 shares for 13 seconds
+
+Results for Proportional Share Scheduling:
+Process P1:
+  Turnaround Time: 16 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P2:
+  Turnaround Time: 10 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P3:
+  Turnaround Time: 3 ms
+  Waiting Time: 2 ms
+  Response Time: 0 ms
+Process P4:
+  Turnaround Time: 16 ms
+  Waiting Time: 2 ms
+  Response Time: 0 ms
+Process P5:
+  Turnaround Time: 19 ms
+  Waiting Time: 3 ms
+  Response Time: 0 ms
+Process P6:
+  Turnaround Time: 10 ms
+  Waiting Time: 4 ms
+  Response Time: 0 ms
+Process P7:
+  Turnaround Time: 18 ms
+  Waiting Time: 4 ms
+  Response Time: 0 ms
+Process P8:
+  Turnaround Time: 13 ms
+  Waiting Time: 5 ms
+  Response Time: 0 ms
+Process P9:
+  Turnaround Time: 16 ms
+  Waiting Time: 5 ms
+  Response Time: 0 ms
+Process P10:
+  Turnaround Time: 19 ms
+  Waiting Time: 6 ms
+  Response Time: 0 ms
+
+Metrics Comparison:
+Priority Scheduling:
+  Average Turnaround Time: 68.00 ms
+  Average Waiting Time: 57.20 ms
+  Average Response Time: 0.00 ms
+
+Earliest Deadline First Scheduling:
+  Average Turnaround Time: 60.90 ms
+  Average Waiting Time: 50.10 ms
+  Average Response Time: 50.10 ms
+
+Rate Monotonic Scheduling:
+  Average Turnaround Time: 64.20 ms
+  Average Waiting Time: 53.40 ms
+  Average Response Time: 53.40 ms
+
+Proportional Share Scheduling:
+  Average Turnaround Time: 14.00 ms
+  Average Waiting Time: 3.20 ms
+  Average Response Time: 0.00 ms
+
+Conclusion : With Number of Process = 10
+
+By comparing the Average TurnAround Time
+Proportional Share Scheduling is the best.
+
+By comparing the Average Waiting Time
+Proportional Share Scheduling is the best.
+Num of Processes: 20
+Running Priority Scheduling:
+Executing the task P11 with priority 0 for 14 seconds
+Task with priority 0 completed.
+Executing the task P5 with priority 1 for 19 seconds
+Task with priority 1 completed.
+Executing the task P1 with priority 2 for 15 seconds
+Task with priority 2 completed.
+Executing the task P7 with priority 2 for 14 seconds
+Task with priority 2 completed.
+Executing the task P8 with priority 2 for 14 seconds
+Task with priority 2 completed.
+Executing the task P6 with priority 3 for 7 seconds
+Task with priority 3 completed.
+Executing the task P13 with priority 3 for 8 seconds
+Task with priority 3 completed.
+Executing the task P3 with priority 5 for 8 seconds
+Task with priority 5 completed.
+Executing the task P20 with priority 5 for 13 seconds
+Task with priority 5 completed.
+Executing the task P9 with priority 6 for 14 seconds
+Task with priority 6 completed.
+Executing the task P10 with priority 6 for 18 seconds
+Task with priority 6 completed.
+Executing the task P16 with priority 6 for 1 seconds
+Task with priority 6 completed.
+Executing the task P15 with priority 7 for 12 seconds
+Task with priority 7 completed.
+Executing the task P17 with priority 7 for 18 seconds
+Task with priority 7 completed.
+Executing the task P2 with priority 8 for 3 seconds
+Task with priority 8 completed.
+Executing the task P4 with priority 8 for 11 seconds
+Task with priority 8 completed.
+Executing the task P14 with priority 8 for 3 seconds
+Task with priority 8 completed.
+Executing the task P19 with priority 8 for 14 seconds
+Task with priority 8 completed.
+Executing the task P12 with priority 9 for 11 seconds
+Task with priority 9 completed.
+Executing the task P18 with priority 9 for 8 seconds
+Task with priority 9 completed.
+
+Results for Priority Scheduling:
+Process P11:
+  Turnaround Time: 14 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P5:
+  Turnaround Time: 33 ms
+  Waiting Time: 14 ms
+  Response Time: 0 ms
+Process P1:
+  Turnaround Time: 48 ms
+  Waiting Time: 33 ms
+  Response Time: 0 ms
+Process P7:
+  Turnaround Time: 62 ms
+  Waiting Time: 48 ms
+  Response Time: 0 ms
+Process P8:
+  Turnaround Time: 76 ms
+  Waiting Time: 62 ms
+  Response Time: 0 ms
+Process P6:
+  Turnaround Time: 83 ms
+  Waiting Time: 76 ms
+  Response Time: 0 ms
+Process P13:
+  Turnaround Time: 91 ms
+  Waiting Time: 83 ms
+  Response Time: 0 ms
+Process P3:
+  Turnaround Time: 99 ms
+  Waiting Time: 91 ms
+  Response Time: 0 ms
+Process P20:
+  Turnaround Time: 112 ms
+  Waiting Time: 99 ms
+  Response Time: 0 ms
+Process P9:
+  Turnaround Time: 126 ms
+  Waiting Time: 112 ms
+  Response Time: 0 ms
+Process P10:
+  Turnaround Time: 144 ms
+  Waiting Time: 126 ms
+  Response Time: 0 ms
+Process P16:
+  Turnaround Time: 145 ms
+  Waiting Time: 144 ms
+  Response Time: 0 ms
+Process P15:
+  Turnaround Time: 157 ms
+  Waiting Time: 145 ms
+  Response Time: 0 ms
+Process P17:
+  Turnaround Time: 175 ms
+  Waiting Time: 157 ms
+  Response Time: 0 ms
+Process P2:
+  Turnaround Time: 178 ms
+  Waiting Time: 175 ms
+  Response Time: 0 ms
+Process P4:
+  Turnaround Time: 189 ms
+  Waiting Time: 178 ms
+  Response Time: 0 ms
+Process P14:
+  Turnaround Time: 192 ms
+  Waiting Time: 189 ms
+  Response Time: 0 ms
+Process P19:
+  Turnaround Time: 206 ms
+  Waiting Time: 192 ms
+  Response Time: 0 ms
+Process P12:
+  Turnaround Time: 217 ms
+  Waiting Time: 206 ms
+  Response Time: 0 ms
+Process P18:
+  Turnaround Time: 225 ms
+  Waiting Time: 217 ms
+  Response Time: 0 ms
+
+Running Earliest Deadline First Scheduling:
+Executing the task P3 with deadline 1 for 8 seconds
+Task with deadline 1 completed.
+Executing the task P4 with deadline 1 for 11 seconds
+Task with deadline 1 completed.
+Executing the task P5 with deadline 3 for 19 seconds
+Task with deadline 3 completed.
+Executing the task P14 with deadline 5 for 3 seconds
+Task with deadline 5 completed.
+Executing the task P18 with deadline 5 for 8 seconds
+Task with deadline 5 completed.
+Executing the task P11 with deadline 10 for 14 seconds
+Task with deadline 10 completed.
+Executing the task P15 with deadline 11 for 12 seconds
+Task with deadline 11 completed.
+Executing the task P13 with deadline 12 for 8 seconds
+Task with deadline 12 completed.
+Executing the task P7 with deadline 13 for 14 seconds
+Task with deadline 13 completed.
+Executing the task P19 with deadline 13 for 14 seconds
+Task with deadline 13 completed.
+Executing the task P20 with deadline 14 for 13 seconds
+Task with deadline 14 completed.
+Executing the task P2 with deadline 14 for 3 seconds
+Task with deadline 14 completed.
+Executing the task P1 with deadline 17 for 15 seconds
+Task with deadline 17 completed.
+Executing the task P16 with deadline 21 for 1 seconds
+Task with deadline 21 completed.
+Executing the task P8 with deadline 22 for 14 seconds
+Task with deadline 22 completed.
+Executing the task P17 with deadline 23 for 18 seconds
+Task with deadline 23 completed.
+Executing the task P12 with deadline 23 for 11 seconds
+Task with deadline 23 completed.
+Executing the task P9 with deadline 29 for 14 seconds
+Task with deadline 29 completed.
+Executing the task P10 with deadline 29 for 18 seconds
+Task with deadline 29 completed.
+Executing the task P6 with deadline 30 for 7 seconds
+Task with deadline 30 completed.
+
+Results for Earliest Deadline First Scheduling:
+Process P3:
+  Turnaround Time: 8 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P4:
+  Turnaround Time: 19 ms
+  Waiting Time: 8 ms
+  Response Time: 8 ms
+Process P5:
+  Turnaround Time: 38 ms
+  Waiting Time: 19 ms
+  Response Time: 19 ms
+Process P14:
+  Turnaround Time: 41 ms
+  Waiting Time: 38 ms
+  Response Time: 38 ms
+Process P18:
+  Turnaround Time: 49 ms
+  Waiting Time: 41 ms
+  Response Time: 41 ms
+Process P11:
+  Turnaround Time: 63 ms
+  Waiting Time: 49 ms
+  Response Time: 49 ms
+Process P15:
+  Turnaround Time: 75 ms
+  Waiting Time: 63 ms
+  Response Time: 63 ms
+Process P13:
+  Turnaround Time: 83 ms
+  Waiting Time: 75 ms
+  Response Time: 75 ms
+Process P7:
+  Turnaround Time: 97 ms
+  Waiting Time: 83 ms
+  Response Time: 83 ms
+Process P19:
+  Turnaround Time: 111 ms
+  Waiting Time: 97 ms
+  Response Time: 97 ms
+Process P20:
+  Turnaround Time: 124 ms
+  Waiting Time: 111 ms
+  Response Time: 111 ms
+Process P2:
+  Turnaround Time: 127 ms
+  Waiting Time: 124 ms
+  Response Time: 124 ms
+Process P1:
+  Turnaround Time: 142 ms
+  Waiting Time: 127 ms
+  Response Time: 127 ms
+Process P16:
+  Turnaround Time: 143 ms
+  Waiting Time: 142 ms
+  Response Time: 142 ms
+Process P8:
+  Turnaround Time: 157 ms
+  Waiting Time: 143 ms
+  Response Time: 143 ms
+Process P17:
+  Turnaround Time: 175 ms
+  Waiting Time: 157 ms
+  Response Time: 157 ms
+Process P12:
+  Turnaround Time: 186 ms
+  Waiting Time: 175 ms
+  Response Time: 175 ms
+Process P9:
+  Turnaround Time: 200 ms
+  Waiting Time: 186 ms
+  Response Time: 186 ms
+Process P10:
+  Turnaround Time: 218 ms
+  Waiting Time: 200 ms
+  Response Time: 200 ms
+Process P6:
+  Turnaround Time: 225 ms
+  Waiting Time: 218 ms
+  Response Time: 218 ms
+
+Running Rate Monotonic Scheduling:
+Executing the task P14 with period 1 for 3 seconds
+Task with period 1 completed.
+Executing the task P19 with period 1 for 14 seconds
+Task with period 1 completed.
+Executing the task P5 with period 2 for 19 seconds
+Task with period 2 completed.
+Executing the task P16 with period 3 for 1 seconds
+Task with period 3 completed.
+Executing the task P3 with period 4 for 8 seconds
+Task with period 4 completed.
+Executing the task P4 with period 4 for 11 seconds
+Task with period 4 completed.
+Executing the task P20 with period 4 for 13 seconds
+Task with period 4 completed.
+Executing the task P1 with period 5 for 15 seconds
+Task with period 5 completed.
+Executing the task P15 with period 5 for 12 seconds
+Task with period 5 completed.
+Executing the task P17 with period 5 for 18 seconds
+Task with period 5 completed.
+Executing the task P8 with period 6 for 14 seconds
+Task with period 6 completed.
+Executing the task P12 with period 6 for 11 seconds
+Task with period 6 completed.
+Executing the task P13 with period 6 for 8 seconds
+Task with period 6 completed.
+Executing the task P18 with period 7 for 8 seconds
+Task with period 7 completed.
+Executing the task P6 with period 8 for 7 seconds
+Task with period 8 completed.
+Executing the task P10 with period 8 for 18 seconds
+Task with period 8 completed.
+Executing the task P2 with period 9 for 3 seconds
+Task with period 9 completed.
+Executing the task P9 with period 9 for 14 seconds
+Task with period 9 completed.
+Executing the task P7 with period 10 for 14 seconds
+Task with period 10 completed.
+Executing the task P11 with period 10 for 14 seconds
+Task with period 10 completed.
+
+Results for Rate Monotonic Scheduling:
+Process P14:
+  Turnaround Time: 3 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P19:
+  Turnaround Time: 17 ms
+  Waiting Time: 3 ms
+  Response Time: 3 ms
+Process P5:
+  Turnaround Time: 36 ms
+  Waiting Time: 17 ms
+  Response Time: 17 ms
+Process P16:
+  Turnaround Time: 37 ms
+  Waiting Time: 36 ms
+  Response Time: 36 ms
+Process P3:
+  Turnaround Time: 45 ms
+  Waiting Time: 37 ms
+  Response Time: 37 ms
+Process P4:
+  Turnaround Time: 56 ms
+  Waiting Time: 45 ms
+  Response Time: 45 ms
+Process P20:
+  Turnaround Time: 69 ms
+  Waiting Time: 56 ms
+  Response Time: 56 ms
+Process P1:
+  Turnaround Time: 84 ms
+  Waiting Time: 69 ms
+  Response Time: 69 ms
+Process P15:
+  Turnaround Time: 96 ms
+  Waiting Time: 84 ms
+  Response Time: 84 ms
+Process P17:
+  Turnaround Time: 114 ms
+  Waiting Time: 96 ms
+  Response Time: 96 ms
+Process P8:
+  Turnaround Time: 128 ms
+  Waiting Time: 114 ms
+  Response Time: 114 ms
+Process P12:
+  Turnaround Time: 139 ms
+  Waiting Time: 128 ms
+  Response Time: 128 ms
+Process P13:
+  Turnaround Time: 147 ms
+  Waiting Time: 139 ms
+  Response Time: 139 ms
+Process P18:
+  Turnaround Time: 155 ms
+  Waiting Time: 147 ms
+  Response Time: 147 ms
+Process P6:
+  Turnaround Time: 162 ms
+  Waiting Time: 155 ms
+  Response Time: 155 ms
+Process P10:
+  Turnaround Time: 180 ms
+  Waiting Time: 162 ms
+  Response Time: 162 ms
+Process P2:
+  Turnaround Time: 183 ms
+  Waiting Time: 180 ms
+  Response Time: 180 ms
+Process P9:
+  Turnaround Time: 197 ms
+  Waiting Time: 183 ms
+  Response Time: 183 ms
+Process P7:
+  Turnaround Time: 211 ms
+  Waiting Time: 197 ms
+  Response Time: 197 ms
+Process P11:
+  Turnaround Time: 225 ms
+  Waiting Time: 211 ms
+  Response Time: 211 ms
+
+Running Proportional Share Scheduling:
+Executing the task P1 with 20 shares for 15 seconds
+Executing the task P2 with 44 shares for 3 seconds
+Executing the task P3 with 53 shares for 8 seconds
+Executing the task P4 with 65 shares for 11 seconds
+Executing the task P5 with 60 shares for 19 seconds
+Executing the task P6 with 21 shares for 7 seconds
+Executing the task P7 with 28 shares for 14 seconds
+Executing the task P8 with 63 shares for 14 seconds
+Executing the task P9 with 46 shares for 14 seconds
+Executing the task P10 with 53 shares for 18 seconds
+Executing the task P11 with 23 shares for 14 seconds
+Executing the task P12 with 47 shares for 11 seconds
+Executing the task P13 with 66 shares for 8 seconds
+Executing the task P14 with 45 shares for 3 seconds
+Executing the task P15 with 73 shares for 12 seconds
+Executing the task P16 with 78 shares for 1 seconds
+Executing the task P17 with 64 shares for 18 seconds
+Executing the task P18 with 78 shares for 8 seconds
+Executing the task P19 with 62 shares for 14 seconds
+Executing the task P20 with 1 shares for 13 seconds
+
+Results for Proportional Share Scheduling:
+Process P1:
+  Turnaround Time: 15 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P2:
+  Turnaround Time: 3 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P3:
+  Turnaround Time: 8 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P4:
+  Turnaround Time: 11 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P5:
+  Turnaround Time: 19 ms
+  Waiting Time: 0 ms
+  Response Time: 0 ms
+Process P6:
+  Turnaround Time: 8 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P7:
+  Turnaround Time: 15 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P8:
+  Turnaround Time: 15 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P9:
+  Turnaround Time: 15 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P10:
+  Turnaround Time: 19 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P11:
+  Turnaround Time: 15 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P12:
+  Turnaround Time: 12 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P13:
+  Turnaround Time: 9 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P14:
+  Turnaround Time: 4 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P15:
+  Turnaround Time: 13 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P16:
+  Turnaround Time: 2 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P17:
+  Turnaround Time: 19 ms
+  Waiting Time: 1 ms
+  Response Time: 0 ms
+Process P18:
+  Turnaround Time: 10 ms
+  Waiting Time: 2 ms
+  Response Time: 0 ms
+Process P19:
+  Turnaround Time: 16 ms
+  Waiting Time: 2 ms
+  Response Time: 0 ms
+Process P20:
+  Turnaround Time: 15 ms
+  Waiting Time: 2 ms
+  Response Time: 0 ms
+
+Metrics Comparison:
+Priority Scheduling:
+  Average Turnaround Time: 128.60 ms
+  Average Waiting Time: 117.35 ms
+  Average Response Time: 0.00 ms
+
+Earliest Deadline First Scheduling:
+  Average Turnaround Time: 114.05 ms
+  Average Waiting Time: 102.80 ms
+  Average Response Time: 102.80 ms
+
+Rate Monotonic Scheduling:
+  Average Turnaround Time: 114.20 ms
+  Average Waiting Time: 102.95 ms
+  Average Response Time: 102.95 ms
+
+Proportional Share Scheduling:
+  Average Turnaround Time: 12.15 ms
+  Average Waiting Time: 0.90 ms
+  Average Response Time: 0.00 ms
+
+Conclusion : With Number of Process = 20
+
+By comparing the Average TurnAround Time
+Proportional Share Scheduling is the best.
+
+By comparing the Average Waiting Time
+Proportional Share Scheduling is the best.
